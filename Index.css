@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(s.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+}
+
+.logo span{
+    color: yellow;
+}
+
+.menu-bar{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+}
+
+.menu-bar ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu-bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu-bar ul li a{
+    font: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-bar ul li a:hover{
+    color: yellow;
+}
+
+.fas{
+    float: right;
+    margin: 2px;
+    padding-top: 0px;
+}
+
+.dropdown-menu{
+    color: white;
+    display: none;
+}
+
+.menu-bar ul li:hover .dropdown-menu{
+    display: block;
+    position: absolute;
+    background-color: black;
+    left: 15%;
+    top: 100%;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul{
+    display: block;
+    margin: 1px;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul li{
+    width: 120px;
+    padding: 10px;
+}
+
+.menu-bar ul li .dropdown-menu ul li .dropup-menu{
+    display: none;
+}
+
+.menu-bar ul li .dropdown-menu ul li:hover .dropup-menu{
+    display: block;
+    position: absolute;
+    background-color: black;
+    left: 100%;
+    top: 0%;
+}
+
+/*form styling*/
+
+.form{
+    background: linear-gradient(to right,rgba(100, 30, 80, 0.438),rgba(201,20,111,0.315));
+    width: 40%;
+    height: 70%;
+    margin: 10% 30%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px white;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+label{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    margin: 4px, 0;
+    padding: 3px 3px;
+}
+
+input[type="text"], [type="password"], select{
+    width: 80%;
+    border: 10px;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+
+button[type="submit"]{
+    color: black;
+    font-size: 25px;
+    width: 150px;
+    margin: 2% 30%;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.button1:hover button[type="submit"]{
+    color: yellow;
+}
