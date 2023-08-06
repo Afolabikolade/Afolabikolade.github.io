@@ -141,21 +141,3 @@ button[type="submit"]{
 .button1:hover button[type="submit"]{
     color: yellow;
 }
-
-.pctext{
- margin: 0;
-}
-
-.mobiletext{
-    margin: 0;
-}
-
-@media only screen and (max-width: 414px){
-    .pctext{
-        visibility: collapse;
-    }
-
-    .mobiletext{
-        visibility: visible;
-    }
-}
