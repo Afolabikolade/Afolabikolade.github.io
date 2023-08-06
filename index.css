@@ -98,7 +98,10 @@ body{
     background: linear-gradient(to right,rgba(100, 30, 80, 0.438),rgba(201,20,111,0.315));
     width: 40%;
     height: 70%;
-    margin: 10% 30%;
+    /* margin: 10% 30%; */
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5%;
     border-radius: 12px;
     box-shadow: 5px 5px 5px white;
 }
@@ -161,10 +164,15 @@ button[type="submit"]{
         font-family: sans-serif;
     }
     .menu-bar ul li a{
-        margin: 5px 5px;
+        margin: 5px 2px;
         font: 20px;
         color: white;
         text-decoration: none;
+    }
+    .menu-bar ul li:hover .dropdown-menu{
+        position: unset;
+        background-color: black;
+        margin: 0;
     }
     label{
         font-size: 15px;
