@@ -22,51 +22,48 @@
                     <!-- I call a new class for said contents so as to style it separately using Css -->
                     <div class="dropdown-menu">
                         <ul>
-                            <li> <a href="#">Pricing</li>
-                            <li> <a href="#">Portfolio</li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Portfolio</a></li>
                                 <!-- I use a fas tag to initiate an arrow pointing right for new contents i wish to store -->
-                            <li> <a href="#">Teams<i class="fas fa-caret-right"></i></a>
+                            <li><a href="#">Teams<i class="fas fa-caret-right"></i></a>
                                 <!-- I call a new class for said contents so as to style it separately using Css -->
                                 <div class="dropup-menu">
                                     <ul>
-                                        <li> <a href="#">Coding team</li>
-                                        <li> <a href="#">Testing</li>
-                                        <li> <a href="#">Networking</li>
+                                        <li><a href="#">Coding team</a></li>
+                                        <li><a href="#">Testing</a></li>
+                                        <li><a href="#">Networking</a></li>
                                     </ul>
-                            </li>
-                            <li> <a href="#">FAQ</li>
+                                </div>
+                            <li><a href="#">FAQ</a></li>
                         </ul>
                     </div>
                 </li>
-                <li> <a href="#">Contact</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </div>
     </div>
     <!-- I initiate a div to give a class to my form for appropriate styling in css. -->
-        <div class="form">
-            <h1>Login form</h1>
-            <form action="" method="POST">
-                <label>Username:</label>
-                <input type="text" name="Username"
-                placeholder="Enter your username" required>
-                <label>Password:</label>
-                <input type="password" name="Password"
-                placeholder="Must be at least 8 characters" required>
-                <label>Nationality:</label>
-                    <select>
-                        <option value="Nigeria">Nigeria</option>
-                        <option value="USA">United States</option>
-                        <option value="Sweden">Sweden</option>
-                        <option value="Spain">Spain</option>
-                        <option value="Switzerland">Switzerland</option>
-                        <option value="Greece">Greece</option>
-                    </select>
-                <p><input type="checkbox">Remember me</p>
-                <div class="button1">
-                <button type="submit">Login</button>
-                </div>
-            </form>
-    </div>
+    <div class="form">
+        <h1>Login form</h1>
+        <form action="Login" method="POST">
+            <label>Username:</label>
+            <input type="text" name="Username"
+            placeholder="Enter your username" required>
+            <label>Password:</label>
+            <input type="password" name="Password"
+            placeholder="Must be at least 8 characters" required>
+            <label>Nationality:</label>
+                <select>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="USA">United States</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Switzerland">Switzerland</option>
+                    <option value="Greece">Greece</option>
+                </select>
+            <p><input type="checkbox">Remember me</p>
+            <button type="submit">Login</button>
+        </form>
     </div>
 
 </body>
